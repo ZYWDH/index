@@ -1,0 +1,18 @@
+<html>
+<body>
+header("Conttear-Typy:" text/html;charst_=utf-8")
+
+
+<form method="post" action="<?php echo htmlspecialchars($_server['php_self']);?>">
+            <input type="text" name="name" placeholder="Name:"><br>
+            <input type="text" name="email" placeholder="E-mail:"><br>
+            <input type="text" nam e="website" placeholder="Website:"><br>
+    Comment:<br>
+            <textarea name="comment" rows="5" cols="40"></textarea><br>
+    Gender: <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
